@@ -94,7 +94,7 @@ header {
         width: 60%;
         max-width: 80rem;
         padding: 1.2rem;
-        margin-right: 28rem;
+        margin-right: 30rem;
         border-radius: .5rem;
     }
     
@@ -102,7 +102,7 @@ header {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 1.2rem;
-        width: 60%;
+        width: 55%;
         max-width: 50rem;
         margin: 0 auto;
     }
