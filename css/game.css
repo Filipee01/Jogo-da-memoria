@@ -94,7 +94,7 @@ header {
         width: 60%;
         max-width: 80rem;
         padding: 1.2rem;
-        margin-right: 16rem;
+        margin-right: 28rem;
         border-radius: .5rem;
     }
     
@@ -112,7 +112,7 @@ header {
         width: 100%;
         border-radius: .5rem;
         position: relative;
-        right: 8rem;
+        right: 15rem;
         transition: all 400ms ease;
         transform-style: preserve-3d;
         background-color: #ccc;
