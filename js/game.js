@@ -54,7 +54,7 @@ const checkCards = () => {
 
             firstCard = ''
             secondCard = ''
-        }, 500)
+        }, 700)
     }
 }
 

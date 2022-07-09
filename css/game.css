@@ -73,18 +73,11 @@ header {
 }
 
 @media(max-width: 450px) {
+
     main {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-image: url(../images/bg.jpg);
-        background-size: cover;
-        min-width: 100vh;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem 2rem 5rem;
+        width: 100vw;
+        height: 100vh;
     }
-    
     header {
         display: flex;
         align-items: center;
@@ -94,10 +87,9 @@ header {
         width: 60%;
         max-width: 80rem;
         padding: 1.2rem;
-        margin: 0 0 1rem;
+        margin-right: 16rem;
         border-radius: .5rem;
     }
-    
     
     .grid {
         display: grid;
@@ -109,10 +101,11 @@ header {
     }
     
     .card {
-        aspect-ratio: 5/4.6;
+        aspect-ratio: 3/4;
         width: 100%;
         border-radius: .5rem;
         position: relative;
+        right: 8rem;
         transition: all 400ms ease;
         transform-style: preserve-3d;
         background-color: #ccc;
@@ -129,21 +122,5 @@ header {
         transition: all 400ms ease;
     }
     
-    .front {
-        transform: rotateY(180deg);
     }
-    
-    .back {
-        background-image: url(../images/back.png);
-        backface-visibility: hidden;
-    }
-    
-    .reveal-card {
-        transform: rotateY(180deg);
-    }
-    
-    .disabled-card {
-        filter: saturate(0);
-        opacity: 0.5;
-    }
-}
+
